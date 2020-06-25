@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.principal{
+    width: 700px;
+    height: 800px;
+}
+.secundario{
+    width: 68px;
+    height: 800px;
+}
+.parrafo1{
+    margin: 78px;
+    margin-top: 50px;
+    font-family: arial;
+    font-size: 50px;
+}
+.tercero{
+    margin:78px ;
+    width: 622px;
+    height: 800px;
+    background: white;
+}

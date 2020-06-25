@@ -1,0 +1,21 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url(../imagen/fondo.jpg);
+}
+.parrafo1{
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+.espacio{
+    margin: 40px;
+}
+.parrafo2{
+    text-align: justify;
+    margin: 10px;
+}

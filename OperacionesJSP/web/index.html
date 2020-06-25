@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Calculadora</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="post" action="calculate.jsp">
+            <h2>Operaciones Matematicas Basicas</h2>
+            <table>
+                <tr>    
+                    <td>Ingresar primer operando:</td>
+                    <td><input type="text" name="t1" required pattern="[0-9]+" title="SOLO NUMEROS"></td>        
+                </tr>
+                <tr>
+                    <td>Ingresar segundo operando:</td>
+                    <td><input type="text" name="t2" required pattern="[0-9]+" title="SOLO NUMEROS"><br><br></td>
+                </tr>
+                <tr>
+                    <td>
+                        <fieldset>
+                            <legend>Seleccione una :</legend>
+                            <input type="radio" name="r1" value="sum" required>Suma<br><br>
+                            <input type="radio" name="r1" value="resta">Resta<br><br>
+                            <input type="radio" name="r1" value="mul">Multiplicaciom<br><br>
+                            <input type="radio" name="r1" value="div">Division<br><br>
+                        </fieldset>
+                        <br>
+                    </td>
+                </tr>
+                <tr>
+                     <td><input type="submit" name="enviar" ></td>
+                </tr>  
+            </table>
+        </form>
+    </body>
+</html>

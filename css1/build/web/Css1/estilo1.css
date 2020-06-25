@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    
+}
+.h1 {
+    font-size: 27px;
+    color: dimgray;
+    font-family:Arial Rounded MT Bold;
+    font-weight: 500;
+}
+.navegacion{
+   width: 1350px;
+   background: black;  
+   
+}
+.menu>li{
+    position: relative;
+    display: inline-block;
+    color: white;
+}
+.menu > li a{
+    display: block;
+    padding: 5px 10px;
+    color:darkgray;
+    text-decoration: none; 
+}
+.menu li a:hover{
+    color: white;
+    transition: all .3s;
+}
+.main{
+   width: 800px;
+   margin: 20px auto;
+        
+}
+.tabla1{
+  text-align: center;  
+  width: 100%;
+}
+.t1{
+    font-size: 24px;
+    color: black;
+    font-family: Arial Narrow;
+    
+}
+.t2{
+    font-size: 24px;
+    color: red;
+    font-family: Bahnschrift SemiLight;
+    font-weight: 900;
+}
+.t3{
+    font-size: 20px;
+    color:aqua;
+    font-family: Bahnschrift SemiLight;
+    font-weight: 900;
+}
+.t4{
+    font-size: 12px;
+    font-family: Bahnschrift SemiLight;
+    font-weight: 500;
+}

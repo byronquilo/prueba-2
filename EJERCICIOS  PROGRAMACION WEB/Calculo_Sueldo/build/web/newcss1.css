@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url(climatizacion.jpg);
+}
+
+
+.principal{
+    margin: auto;
+    margin-top: 20px;
+    width:1000px;
+    height: 450px;
+    position: relative; 
+    opacity: 0.8;
+}
+.titulo{
+    margin-top: 5px;
+    width:1000px;
+    height: 40px;
+    position: relative; 
+    color: blue;
+    opacity: 0.8;
+    position: absolute;
+    text-align: center;
+    font-weight: 1000;
+   
+}
+.segunda{
+
+    margin-left: 20px;
+    margin-top: 30px;
+    width:500px;
+    height: 420px;
+    position: relative; 
+   
+    position: absolute;
+    
+}
+.tercero{
+    margin-top: 30px;
+    margin-left: 520px;
+    width:500px;
+    height: 400px;
+    position: relative; 
+
+    position: absolute; 
+}
+
+
+.boton{
+    width:  140px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 150px;
+    border-radius: 6px;
+    background: white;
+    font-size: 15px;
+    font-family:verdania;
+    font-weight: 1000;
+    color:black;
+}
+input[type="text"]{
+    width: 150x; 
+    font-size: 16px;
+    height: 20px;
+    font-family: Calibri;
+    border-top: 2px solid blue;
+    border-right: 2px solid blue ;
+    border-left: 2px solid blue;
+    border-bottom: 2px solid blue; 
+    border-radius: 6px;
+}
+.borde{
+    width: 170px; 
+    font-size: 16px;
+    height: 25px;
+    font-family: Calibri;
+    border-top: 2px solid blue;
+    border-right: 2px solid blue ;
+    border-left: 2px solid blue;
+    border-bottom: 2px solid blue; 
+    border-radius: 6px;
+    
+}
+input[type="radio"]{
+    font-size: 11px;
+    height: 16px;
+    font-family: Calibri;
+}
+.distancia{
+    width: 70px;
+}
+.distancia12{
+    width: 70px;
+}
+.letra{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 1000;   
+}
+.letra1{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 1000; 
+    color: blue;
+}
+.tabla1{
+    margin-left: 30px;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+td{ 
+    border-collapse: collapse; 
+    margin-top: 10px;
+    height: 40px;
+    width: 100px;
+    font-weight: 1000;
+}
+.izquierda{
+    text-align: left;
+    color: red;
+    font-weight: 1000; 
+}
+.rojo{
+    color: red;
+    font-weight: 1000; 
+}
+

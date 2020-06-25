@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.subtitulo1{
+    font-size: 30px;
+    font-family:verdania;
+    padding-left: 50px;
+    color: violet;
+}
+.subtitulo2{
+    font-size: 30px;
+    font-family:verdania;
+    padding-left: 50px;
+    color: violet;
+}
+
+.entrada{
+    width:  300px;
+    height: 30px;
+    border-radius: 6px;
+    font-family:verdania;
+    font-weight: 900;
+}

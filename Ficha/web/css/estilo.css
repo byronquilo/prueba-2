@@ -1,0 +1,352 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: dimgray;
+}
+
+
+.principal{
+    margin: auto;
+    margin-top: 50px;
+    width: 595px;
+    height: 874px;
+    position: relative;
+    
+    background-color: white;
+}
+.encabezado{
+    margin: auto;
+    margin-top: 0px;
+    width: 595px;
+    height: 100px;
+    position: relative;
+}
+.fondoagua{
+    margin: auto;
+    margin-top: 0px;
+    width: 595px;
+    height: 740px;
+    background-color: white;
+    position: relative;
+}
+
+
+.hoja2{
+   margin: auto;
+    margin-top: 25px;
+    width: 595px;
+    height: 874px;
+    background-color: white;
+    position: relative; 
+    background-color: white;
+}
+.cuerpo{
+    margin: auto;
+    width: 565px;
+    height: 770px;;
+    background: url(../fondoagua3.jpg);
+}
+table{
+    
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;  
+    border-collapse: collapse; 
+    
+}
+.blanco{
+    border: 1px solid white;  
+    border-collapse: collapse;  
+}
+.tdblanco{
+    border: 1px solid white;  
+    border-left: 1px solid black;
+    border-collapse: collapse; 
+    border-right: 1px solid black ;
+    
+}
+.derecha{
+    border: 1px solid white;  
+    border-collapse: collapse; 
+    text-align: right;
+    
+}
+
+.tdblanco1{
+    border: 1px solid white;  
+    border-left: 1px solid black;
+    border-collapse: collapse; 
+    
+}
+.tdblanco2{
+    border: 1px solid white;  
+    border-right: 1px solid black ;
+    border-collapse: collapse;
+   
+}
+.tdblanco3{
+    border-top: 2px solid ;
+   
+     
+}
+input[type="radio"]{
+    -webkit-appearance: none; 
+    
+}
+input [type=radio]+ label{
+    cursor: pointer;
+}
+label:before{
+    content: "";
+    background: white;
+    border: 0.4px solid cadetblue;
+    display: inline-block;
+    margin-right: 0px;
+    width: 12px;
+    height: 12px;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+input[type=radio]:checked + label:before{
+    content:'✓';
+    font-size: 9px;
+    color: black;
+    font-weight: bold;
+    position: inherit;
+   
+    
+}
+
+
+tr{
+    font-family: Calibri;
+    font-size: 11px;
+    font-weight: 500;
+     font-weight: 500;
+}
+[type="tel"]{
+    font-size: 11px;
+    width: 180px;
+    height: 12px;
+    font-family: Calibri; 
+    background: activecaption;
+}
+[type="text"]{
+    font-size: 11px;
+    height: 12px;
+    font-family: Calibri;
+    background: activecaption;
+}
+input[type="mail"]{
+    font-size: 11px;
+    height: 12px;
+    font-family: Calibri;
+    background:activecaption;
+}
+[type="number"]{
+    font-size: 11px;
+    height: 12px;
+    background: activecaption;
+}
+.imagen{
+    margin: auto;
+    margin-top: 100px;
+}
+.nombre{
+   width: 345px; 
+   height: 12px;
+}
+.cedula{
+    width: 180px;
+}
+.mail{
+    width: 220px;
+    height: 12px;
+    background:activecaption;
+}
+.emergencia1{
+    width: 275px;
+    height: 12px;
+    background:activecaption;  
+}
+.direc{
+    width: 230px;
+    height: 12px;
+    background:activecaption;  
+}
+.habla{
+    width: 292px;
+    height: 12px;
+    background:activecaption;  
+}
+.naci{
+    width: 145px;
+    height: 12px;
+    background:activecaption;  
+}
+.conadis{
+    width: 200px;
+    height: 12px;
+    background:activecaption;  
+}
+.empresa{
+   width: 330px;
+    height: 12px;
+    background:activecaption; 
+}
+.celdablanco{
+    border: 1px solid white; 
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.celular{
+    width: 100px;
+    height: 12px;
+}
+.tresespacios{
+    width: 48px;
+}
+.edad1{
+    width: 20px;
+}
+.espacio{
+    width: 40px;
+    height: 20px;
+}
+.espacio1{
+   width: 40px;
+    height: 16px; 
+}
+.espacio2{
+   width: 60px;
+    height: 12px; 
+}
+.espacio3{
+   width: 40px;
+    height: 12px; 
+}
+.espacio4{
+   width: 190px;
+    height: 12px; 
+}
+.espacio5{
+   width: 40px;
+    height: 12px; 
+}
+
+.tr48{
+    height: 47px;
+}
+.tr32{
+    height: 31px;
+}
+.tr16{
+    height: 16px;
+}
+.tr64{
+    height: 56px;
+}
+.tr112{
+    height: 112px;
+}
+.tamano{
+    font-size: 20px;
+}
+.espe{
+    width: 200px;
+}
+.letra{
+    font-size: 8px;
+}
+.letra1{
+    font-size: 8px;
+    font-weight: bold;
+}
+.letra2{
+    font-family: Calibri;
+    font-size: 10px;
+}
+.espacioradio{
+    padding-right:30px;
+}
+.espacioradio1{
+    padding-right:20px;
+}
+.espacioradio2{
+    padding-right:70px;
+}
+.espacioradio3{
+    padding-right:41px;
+}
+.espacioradio4{
+    padding-right:20px;
+}
+.espacioradio5{
+    padding-right:21px;
+}
+.linea{
+   border: 1px solid black;
+    height: 1px; 
+}
+
+.fila1{
+   border: 1px solid black;
+    width: 158px;
+    height: 0px;  
+    border-collapse: collapse; 
+}
+.fila2{
+   border: 1px solid black;
+    width: 48px;
+    height: 0px;  
+    border-collapse: collapse; 
+}
+.fila3{
+   border: 1px solid black;
+    width: 37px;
+    height: 0px;  
+    border-collapse: collapse; 
+}
+.fila4{
+   border: 1px solid black;
+    width: 44px;
+    height: 0px;  
+    border-collapse: collapse; 
+}
+.fila5{
+   border: 1px solid black;
+    width: 36px;
+    height: 0px;  
+    border-collapse: collapse; 
+}
+.fila6{
+   border: 1px solid black;
+    width: 43px;
+    height: 0px;  
+    border-collapse: collapse; 
+}
+.fila7{
+   border: 1px solid black;
+    width: 45px;
+    height: 0px;  
+    border-collapse: collapse; 
+}
+.fila8{
+   border: 1px solid black;
+    width: 28px;
+    height: 0px;  
+    border-collapse: collapse; 
+}
+.fila9{
+   border: 1px solid black;
+    width: 126px;
+    height: 0px;  
+    border-collapse: collapse; 
+}
+
+
